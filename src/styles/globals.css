@@ -1,0 +1,79 @@
+:root {
+  --color-background: #f9f9f9;
+  --color-text-primary: #333;
+  --color-primary: #0070f3;
+  --color-accent: #66bb6a;
+  --color-gray-light: #e0e0e0;
+  --color-gray-medium: #777;
+
+  --font-geist-sans: Geist, sans-serif;
+  --font-geist-mono: Geist Mono, monospace;
+}
+
+@layer base {
+  html {
+    --color-background: #f9f9f9;
+    --color-text-primary: #333;
+    --color-primary: #0070f3;
+    --color-accent: #66bb6a;
+    --color-gray-light: #e0e0e0;
+    --color-gray-medium: #777;
+
+    --font-geist-sans: Geist, sans-serif;
+    --font-geist-mono: Geist Mono, monospace;
+  }
+
+  body {
+    @apply bg-color-background text-color-text-primary;
+    font-family: var(--font-geist-sans);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --color-background: #f9f9f9;
+    --color-text-primary: #333;
+    --color-primary: #0070f3;
+    --color-accent: #66bb6a;
+    --color-gray-light: #e0e0e0;
+    --color-gray-medium: #777;
+
+    --font-geist-sans: Geist, sans-serif;
+    --font-geist-mono: Geist Mono, monospace;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #dbdbdb;
+    --color-text-primary: #1f1f1f;
+    --color-primary: #0070f3;
+    --color-accent: #66bb6a;
+    --color-gray-light: #e0e0e0;
+    --color-gray-medium: #777;
+
+    --font-geist-sans: Geist, sans-serif;
+    --font-geist-mono: Geist Mono, monospace;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  background-color: #eeeff2;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #cfcfcf;
+}

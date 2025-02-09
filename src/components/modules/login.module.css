@@ -1,0 +1,97 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loginTitle {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.loginSubtitle {
+  color: #777;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.loginForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 1.2rem;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.forgotPasswordLink {
+  color: #0070f3;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+
+.signupLinkContainer {
+  text-align: center;
+}
+
+.signupText {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #555;
+}
+
+.signupButton {
+  display: inline-block;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signupButton:hover {
+  text-decoration: underline;
+}
