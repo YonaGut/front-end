@@ -1,0 +1,11 @@
+{
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontFamily": "MesloLGM Nerd Font",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
